@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
-import foodYummy from "../assets/FoodYummy.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { VscChromeClose } from "react-icons/vsc";
 export default function Navbar() {
@@ -11,7 +10,8 @@ export default function Navbar() {
     <>
       <Nav>
         <div className="brand">
-          <img src={foodYummy} alt="Icon" />
+          {/* <img src={foodYummy} alt="Icon" /> */}
+         <span style={{fontSize:40,color:'tomato'}}> Spark food</span>
           <div className="toggle">
             {navbarState ? (
               <VscChromeClose onClick={() => setNavbarState(false)} />

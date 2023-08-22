@@ -13,7 +13,7 @@ export default function Portfolio() {
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi,
           molestias!
         </h2>
-        <button>Buy Now</button>
+        <button>Order Now</button>
       </div>
     </Section>
   );

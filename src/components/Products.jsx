@@ -46,7 +46,7 @@ export default function Products() {
               <h2>{product.name}</h2>
               <h3>{product.price}</h3>
               <p>He Printing and Typesetting the industry. Lorem Ipsum has</p>
-              <button>Buy Now</button>
+              <button>Order Now</button>
             </div>
           );
         })}

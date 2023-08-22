@@ -10,7 +10,10 @@ export default function Footer() {
     <div className="footer">
       <Section>
         <div className="brand container">
-          <img src={logo} alt="" />
+          {/* <img src={logo} alt="" /> */}
+          <span style={{fontSize:40,color:'white'}}>
+            Spark Food
+          </span>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis,
             repudiandae.
@@ -45,14 +48,14 @@ export default function Footer() {
             <h3>Contact Us</h3>
           </div>
           <p>+91 1231231231</p>
-          <p>foodyummy@gmail.com</p>
-          <p>@foodyummy</p>
-          <p>412 Street, Ground Floor, India</p>
+          <p>sparkfood@gmail.com</p>
+          <p>@sparkfood</p>
+          <p>412 Street, Ground Floor</p>
         </div>
       </Section>
       <LowerFooter className="lower__footer">
         <h2>
-          Copyright &copy; 2021 <span>Food Yummy</span>
+          Copyright &copy; 2021 <span>Spark Food</span>
         </h2>
       </LowerFooter>
     </div>
